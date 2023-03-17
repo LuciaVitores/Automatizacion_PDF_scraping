@@ -326,14 +326,17 @@ t5
 
 ```{r}
 #EJEMPLOS DE INTERNET QUE SUPUESTAMENTE FUNCIONAN
-![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width='100px'}
-<img src="https://pbs.twimg.com/media/EiAuAS8VoAA1-4T?format=jpg&name=large" alt="JuveR" width="300px">
+#![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width='100px'}
+#<img src="https://pbs.twimg.com/media/EiAuAS8VoAA1-4T?format=jpg&name=large" alt="JuveR" width="300px">
 ```
 
 ```{r}
-![descripción](ubicación de la imagen)
+#![descripción](ubicación de la imagen)
 ```
 
+```{r, out.width="50%", include=TRUE, fig.align="center", fig.cap=c("Joins."), echo=FALSE}
+knitr::include_graphics("INPUT/Imagenes/Join.png")
+```
 
 
 
