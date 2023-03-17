@@ -23,7 +23,7 @@ A desarrollar
 
 ## Ruta
 
-Determinamos la ruta donde se encuentra nuestro docucmento. - Falta desarrollar la forma de solo ontroducir el documento y NO la ruta completa.
+Determinamos la ruta donde se encuentra nuestro docucmento. - Falta desarrollar la forma de sólo introducir el documento y NO la ruta completa.
 
 ```{r}
 txt <- pdf_text("Sample_3_v88.pdf")
