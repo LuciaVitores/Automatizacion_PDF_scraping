@@ -26,7 +26,7 @@ A desarrollar
 Determinamos la ruta donde se encuentra nuestro docucmento. - Falta desarrollar la forma de solo ontroducir el documento y NO la ruta completa.
 
 ```{r}
-txt <- pdf_text("C://Users/luciv/OneDrive/Documentos/R/Sample_3_v88.pdf")
+txt <- pdf_text("Sample_3_v88.pdf")
 txt
 str(txt)
 ```
