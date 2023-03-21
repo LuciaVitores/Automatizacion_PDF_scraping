@@ -51,10 +51,10 @@ raw_text
 
 ```{r}
 #Elegimos las filas que nos interesan
-#Numero chip (carpeta)
+#Numero chip (CARPETA)
 chip <- raw_text[1] #inventado
 chip
-#Numero paciente (carpeta)
+#Numero paciente (CARPETA)
 paciente <- raw_text[2] #inventado
 paciente
 #Fecha informe
@@ -63,10 +63,10 @@ fecha
 #NHC
 NHC <- unlist(str_split(raw_text[7], "\\s{2,}"))[1]
 NHC
-#Numero biopsia
+#Numero biopsia 
 Nbiopsia <- unlist(str_split(raw_text[7], "\\s{2,}"))[2]
 Nbiopsia
-#Biopsia solida
+#Biopsia solida (depende del valor final del numero de biopsia: B=BIOPSIA, C=CITOLOGIA, P=PUNCION)
 biopsia <- raw_text[3] #inventado
 biopsia
 #Texto diagnostico
@@ -81,9 +81,11 @@ mutaciones <- raw_text[c(145, 149, 150)]
 mutaciones
 mutacion <- unlist(str_split(raw_text[34], "\\s{2,}"))[1]
 mutacion
-#Frecuencia alelica %
+#Frecuencia alelica % (SIN PORCENTAJE)
 raw_text[24]
-frecuencia <- unlist(str_split(raw_text[34], "\\s{2,}"))[5]
+frecuenciaAle <- unlist(str_split(raw_text[34], "\\s{2,}"))[5]
+frecuenciaAle
+frecuencia <- substr(frecuenciaAle, 1, 5)
 frecuencia
 #Numero mutacion
 nm <- unlist(str_split(raw_text[34], "\\s{2,}"))[3] #inventado
@@ -94,7 +96,7 @@ espe
 #Farmaco aprobado
 farmaco <-raw_text[14] #inventado
 farmaco
-# Ensayo cl?nico
+# Ensayo clinico
 ensayo <- raw_text[c(99:115)]
 ensayo
 #Benigno - maligno (extra)
