@@ -67,8 +67,11 @@ NHC
 Nbiopsia <- unlist(str_split(raw_text[7], "\\s{2,}"))[2]
 Nbiopsia
 #Biopsia solida (depende del valor final del numero de biopsia: B=BIOPSIA, C=CITOLOGIA, P=PUNCION)
-biopsia <- raw_text[3] #inventado
+biopsia <- unlist(str_split(raw_text[7], "\\s{2,}"))[2]
 biopsia
+#Como la biopsia solida depende del ultimo caracter de Nbiopsia, uso este codigo para que me devuelva el ultimo valor
+bsolida <- substr(as.character(biopsia), nchar(as.character(biopsia)), nchar(as.character(biopsia)))
+bsolida
 #Texto diagnostico
 Texto <- raw_text[9]
 Texto
@@ -106,6 +109,16 @@ bm
 Ndiagnostico <- raw_text[34]
 Ndiagnostico
 ```
+
+```{r}
+#OTRA POSIBLE FORMA DE BUSCAR LA INFORMACIÓN SIN USAR LA POSICIÓN, BUSCANDO POR PALABRAS, SERÍA:
+#Fecha informe
+fecha <- grep("Fecha:", raw_text)
+fecha
+#Esto nos devuelve la posicion donde se encuentra la palabra, yo no quiero eso. 
+#Una posible solucion seria buscar la palabra de interes para obtener su posición y una vez obtenida esta, hacer un bucle para que leyendo la posición, devuelva lo siguiente a la palabra que busco. MUCHO JALEO.
+```
+
 
 ## Cambio formato character a fecha
 Nos interesa qu el formato fecha este almacenado como un date y no como character, por ello usamos la funcion dmy para que nos devuelva la fecha como formato dia-mes-año. 
