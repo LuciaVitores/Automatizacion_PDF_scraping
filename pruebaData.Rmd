@@ -111,10 +111,27 @@ Ndiagnostico
 ```
 
 ```{r}
+
+```
+
+
+
+```{r}
 #OTRA POSIBLE FORMA DE BUSCAR LA INFORMACIÓN SIN USAR LA POSICIÓN, BUSCANDO POR PALABRAS, SERÍA:
 #Fecha informe
-fecha <- grep("Fecha:", raw_text)
-fecha
+fechaI <- grep("Fecha:", raw_text)
+fechaI
+#grepl no me interesa, devuelve todo FALSE y TRUE cuando encuentra la palabra
+
+f <-  unlist(str_split(fechaI, "\\s{2,}"))
+f
+
+biopsiaB <- grep("biopsia:", raw_text) 
+biopsiaB
+
+b <- unlist(str_split(biopsiaB, "\\s{2,}"))[2]
+b
+
 #Esto nos devuelve la posicion donde se encuentra la palabra, yo no quiero eso. 
 #Una posible solucion seria buscar la palabra de interes para obtener su posición y una vez obtenida esta, hacer un bucle para que leyendo la posición, devuelva lo siguiente a la palabra que busco. MUCHO JALEO.
 ```
