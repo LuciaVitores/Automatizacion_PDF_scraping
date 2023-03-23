@@ -105,7 +105,7 @@ ensayo
 #Benigno - maligno (extra)
 bm <- unlist(str_split(raw_text[34], "\\s{2,}"))[9]
 bm
-#Numero diagnostico
+#Numero diagnostico (le doy yo co la talba creada)
 Ndiagnostico <- raw_text[34]
 Ndiagnostico
 ```
@@ -135,6 +135,24 @@ b
 #Esto nos devuelve la posicion donde se encuentra la palabra, yo no quiero eso. 
 #Una posible solucion seria buscar la palabra de interes para obtener su posición y una vez obtenida esta, hacer un bucle para que leyendo la posición, devuelva lo siguiente a la palabra que busco. MUCHO JALEO.
 ```
+
+
+```{r}
+#Uso de expresiones regulares
+str_view(raw_text, "NHC") 
+
+str_view(raw_text, "fase") 
+str_view(raw_text, "Fecha:") 
+str_view(raw_text, "biopsia:") 
+str_view(raw_text, "Tipo de cáncer de la muestra:") 
+str_view(raw_text, "Frecuencia de alelo:") 
+str_view(raw_text, "IIC")
+str_view(raw_text, "Ensayos clínicos")
+str_view(raw_text, "Tratamiento relevante")
+str_view(raw_text, "Gen")
+```
+
+
 
 
 ## Cambio formato character a fecha
