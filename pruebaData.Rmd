@@ -122,6 +122,7 @@ Ndiagnostico
 fechaI <- grep("Fecha:", raw_text)
 fechaI
 #grepl no me interesa, devuelve todo FALSE y TRUE cuando encuentra la palabra
+raw_text[74]
 
 f <-  unlist(str_split(fechaI, "\\s{2,}"))
 f
