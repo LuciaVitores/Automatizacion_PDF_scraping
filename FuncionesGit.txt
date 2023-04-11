@@ -8,3 +8,4 @@ Git push -u origin <branch> = sube la nueva rama al repositorio GitHub.
 Git merge <branch> = une la rama que determino con la inicial (o main). Lo lanzo desde la rama main.
 Git branch -d <branch> = elimina la rama con el nombre indicado. 
 Git branch -D <branch> = fuerza el borrado de la rama si -d no funciona. 
+Git fetch = actualiza todas las confirmaciones más recientes en ambas ramas. 
