@@ -1,11 +1,12 @@
-Git status = ver estado documentos.
-Git add <archivo> = autorizo a subir el documento con nombre archivo.
-Git branch = indica los branch del proyecto y en cuál estoy trabajando.
+Funciones git:
+Git status = ver el estado de los documentos.
+Git add <archivo> = autorizo a subir el documento con nombre <archivo>.
+Git branch = indica los branch (ramas) del proyecto e indica en cuál estoy trabajando.
 Git branch <branch> = crea una nueva rama con el nombre determinado, pero no la verifica. 
 Git show-branch = muestra las ramas con sus commits.
-Git checkout <branch> = cambia a la rama indicada.
+Git checkout <branch> = cambia a la rama indicada. 
 Git push -u origin <branch> = sube la nueva rama al repositorio GitHub.
-Git merge <branch> = une la rama que determino con la inicial (o main). Lo lanzo desde la rama main.
+Git merge <branch> = une la rama que determino con la inicial (o main). Importante lanzarlo desde la rama main.
 Git branch -d <branch> = elimina la rama con el nombre indicado. 
 Git branch -D <branch> = fuerza el borrado de la rama si -d no funciona. 
 Git fetch = actualiza todas las confirmaciones más recientes en ambas ramas. 
