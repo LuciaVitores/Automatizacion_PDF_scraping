@@ -11,6 +11,7 @@ list.files(ruta)
 library(tools) #Sin esto no funciona file_ext
 library(pdftools) #Función LeerDocumentos
 library(readxl) #Lectura de ficheros Excel
+library(stringr)
 
 
 LeerFicherosPDF <- function(ruta) {
@@ -43,9 +44,9 @@ LeerDocumento <- function(ruta){
 text
 
 
-BuscarValor<- function(textoABuscar, lines){
+BuscarValor<- function(textoABuscar, text){
   Encontrados <- vector()
-  valores <- ifelse(grepl(textoABuscar, lines), 1, 0)
+  valores <- ifelse(grepl(textoABuscar, text), 1, 0)
   valores <- which(valores == 1)
   posiciones <- nchar(textoABuscar)
   for (i in which(valores == 1)){
@@ -124,5 +125,50 @@ for (ficheroPDF in ficheros) {
   fecha_Data <- append(fecha_Data, BuscarValor("Fecha:", lines))
   texto_Data <- append(texto_Data, BuscarValor("de la muestra:", lines))
 }
+print(NHC_Data)
 
 
+
+
+BuscarValor <- function(textoBuscar, lines) {
+  Encontrados <- c()
+  
+  for (i in seq_along(lines)) {
+    if (grepl(textoBuscar, lines[i])) {
+      Encontrados <- c(Encontrados, trimws(sub(paste0(".*", textoBuscar, "\\s*"), "", lines[i])))
+    }
+  }
+  
+  return(Encontrados)
+}
+resultado2 <- BuscarValor("Fecha:", text)
+print(resultado2)
+
+
+LeerValor <- function(ruta, palabra) {
+  archivos <- list.files(ruta, full.names = TRUE)
+  valores <- numeric(length(archivos))
+  for (i in seq_along(archivos)) {
+    texto <- pdf_text(archivos[i])
+    patron <- paste0(palabra, "\\s*([[:digit:].,]+)")
+    resultado <- regmatches(texto, regexpr(patron, texto, perl = TRUE))
+    if (length(resultado) > 0) {
+      valor <- as.numeric(gsub(",", ".", sub(paste0(palabra, "\\s*"), "", resultado)))
+      valores[i] <- valor
+    } else {
+      valores[i] <- NA
+    }
+  }
+  return(valores)
+}
+res <- LeerValor(ruta, "Fecha: ")
+res
+
+a <- LeerValor(ruta, "Nº biopsia: ")
+a
+
+b <- LeerValor(ruta, "NHC: ")
+b
+
+c <- LeerValor(ruta, "de la muestra: ")
+c
