@@ -1,8 +1,9 @@
-image.png
 
 # Automatización de extracción de datos de informes de secuenciación masiva y análisis.
 Trabajo de fin de grado de Ingeniería de la Salud de la Universidad de Burgos.
+
 Tutor: Antonio Jesús Canepa Oneto. 
+
 
 ## Resumen
 Este Trabajo de Fin de Grado se centra en la automatización de la extracción de datos en el servicio de anatomía patológica del Hospital universitario de Burgos (HUBU). 
