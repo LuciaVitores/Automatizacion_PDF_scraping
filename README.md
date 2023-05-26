@@ -1,4 +1,5 @@
-pictureBox1.Image = Image.FromFile("C:/Usersluciv/OneDrive/Documentos/TFG_Lucia/GitHub/Automatizacion_PDF_scraping/Automatizacion_PDF_scraping/INPUT/Imagenes/Logo.jpg")
+![Logo Universidad de Burgos](C:/Usersluciv/OneDrive/Documentos/TFG_Lucia/GitHub/Automatizacion_PDF_scraping/Automatizacion_PDF_scraping/INPUT/Imagenes/Logo.jpg)
+
 
 # Automatización de extracción de datos de informes de secuenciación masiva y análisis.
 Trabajo de fin de grado de Ingeniería de la Salud de la Universidad de Burgos.
