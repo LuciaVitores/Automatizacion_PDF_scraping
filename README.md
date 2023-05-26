@@ -1,4 +1,4 @@
-[Logo Universidad de Burgos][C:/Users/luciv/OneDrive/Documentos/TFG_Lucia/GitHub/Automatizacion_PDF_scraping/Automatizacion_PDF_scraping/INPUT/Imagenes/Logo.jpg]
+![Logo Universidad de Burgos](C:/Users/luciv/OneDrive/Documentos/TFG_Lucia/GitHub/Automatizacion_PDF_scraping/Automatizacion_PDF_scraping/INPUT/Imagenes/Logo.jpg)
 
 
 # Automatización de extracción de datos de informes de secuenciación masiva y análisis.
