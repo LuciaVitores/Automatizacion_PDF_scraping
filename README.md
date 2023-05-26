@@ -1,3 +1,4 @@
+pictureBox1.Image = Image.FromFile("C:\Users\luciv\OneDrive\Documentos\TFG_Lucia\GitHub\Automatizacion_PDF_scraping\Automatizacion_PDF_scraping\INPUT\Imagenes\Logo.png");
 
 # Automatización de extracción de datos de informes de secuenciación masiva y análisis.
 Trabajo de fin de grado de Ingeniería de la Salud de la Universidad de Burgos.
