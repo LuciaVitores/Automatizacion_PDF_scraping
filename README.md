@@ -1,4 +1,4 @@
-[Logo Universidad de Burgos](https://www.google.com/imgres?imgurl=https%3A%2F%2Ftienda.ubu.es%2Fimg%2Fmicrolibre-sl-logo-1631795143.jpg&tbnid=CXiY82LFqadb6M&vet=12ahUKEwj0l6-zs5P_AhVokScCHRZZAR0QMygCegUIARDBAQ..i&imgrefurl=https%3A%2F%2Ftienda.ubu.es%2F&docid=sYFATxITRc6nEM&w=2185&h=593&q=logo%20ubu&ved=2ahUKEwj0l6-zs5P_AhVokScCHRZZAR0QMygCegUIARDBAQ)
+[Logo Universidad de Burgos][C:/Users/luciv/OneDrive/Documentos/TFG_Lucia/GitHub/Automatizacion_PDF_scraping/Automatizacion_PDF_scraping/INPUT/Imagenes/Logo.jpg]
 
 
 # Automatización de extracción de datos de informes de secuenciación masiva y análisis.
@@ -25,16 +25,18 @@ Para conseguir este objetivo general, se ha dividido en distintos objetivos más
 2. Lograr una interfaz sencilla para que cualquier persona sea capaz de usarla correctamente y obtener los resultados esperados, con el fin de facilitar el estudio.  
 
 ### Objetivos técnicos.
-1. Revisión bibliográfica sobre PDFscraping. ~\ref{ch:PDFscraping} 
+1. Revisión bibliográfica sobre PDFscraping. 
 2. Creación de código sencillo  que seleccione las variables de interés de un PDF usando técnicas de PDFscraping. 
 3. Lectura de todos los PDF proporcionados para la obtención de la información.
 4. Separación de la información en tablas específicas.
 5. Obtención de varios archivos .CSV con los resultados. 
 6. Creación de material para ayudar a su implementación en otros dispositivos.
-\
 
 ### Objetivos de aprendizaje.
 1. Adquisición de nuevos conocimientos en el ámbito anatomopatológico. 
 2. Aumento de conocimiento en el ámbito de programación.
 3. Uso de distintas herramientas para un resultado final adecuado. 
 4. Comprensión de la información biológica para su aplicación en el desarrollo del código.
+
+
+[C:\Users\luciv\OneDrive\Documentos\TFG_Lucia\GitHub\Automatizacion_PDF_scraping\Automatizacion_PDF_scraping\INPUT\Imagenes]: C:\Users\luciv\OneDrive\Documentos\TFG_Lucia\GitHub\Automatizacion_PDF_scraping\Automatizacion_PDF_scraping\INPUT\ImagenesLogo.jpg
