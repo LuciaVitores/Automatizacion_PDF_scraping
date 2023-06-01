@@ -1,5 +1,9 @@
 ![Logo UBU)[https://github.com/LuciaVitores/Automatizacion_PDF_scraping/blob/main/INPUT/Imagenes/Logo.jpg)
 
+![Logo UBU)[https://www.ubu.es/sites/default/files/portal_page/images/escudo_color_tl.png)
+
+
+
 # Automatización de extracción de datos de informes de secuenciación masiva y análisis.
 Trabajo de fin de grado de Ingeniería de la Salud de la Universidad de Burgos.
 
