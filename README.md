@@ -1,5 +1,4 @@
-![Logo Universidad de Burgos](C:/Users/luciv/OneDrive/Documentos/TFG_Lucia/GitHub/Automatizacion_PDF_scraping/Automatizacion_PDF_scraping/INPUT/Imagenes/Logo.jpg)
-
+![Logo UBU)[https://www.ubu.es/sites/default/files/portal_page/images/escudo_color_tl.png)
 
 # Automatización de extracción de datos de informes de secuenciación masiva y análisis.
 Trabajo de fin de grado de Ingeniería de la Salud de la Universidad de Burgos.
