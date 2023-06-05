@@ -1,7 +1,4 @@
-![Logo UBU)[https://github.com/LuciaVitores/Automatizacion_PDF_scraping/blob/main/INPUT/Imagenes/Logo.jpg)
-
-![Logo UBU)[https://www.ubu.es/sites/default/files/portal_page/images/escudo_color_tl.png)
-
+![Logo](https://github.com/LuciaVitores/Automatizacion_PDF_scraping/assets/80346455/666955d9-a218-4bf0-b9ed-e455a442769e)
 
 
 # Automatización de extracción de datos de informes de secuenciación masiva y análisis.
