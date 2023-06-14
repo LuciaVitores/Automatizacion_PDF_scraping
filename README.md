@@ -1,8 +1,9 @@
 ![Logo](https://github.com/LuciaVitores/Automatizacion_PDF_scraping/assets/80346455/666955d9-a218-4bf0-b9ed-e455a442769e)
 
 
-# Automatización de extracción de datos de informes de secuenciación masiva y análisis.
+# Automatización de extracción de datos de informes de secuenciación masiva del software Oncomine Reporter.
 Trabajo de fin de grado de Ingeniería de la Salud de la Universidad de Burgos.
+Escuela Politécnica Superior.
 
 Tutor: Antonio Jesús Canepa Oneto. 
 
@@ -16,7 +17,7 @@ El estudio se basa en implementar un sistema automático para la extracción de 
 Los resultados muestran que la automatización proporciona muchas ventajas y mejoras a la hora de trabajar con los resultados, aportando información más precisa, concreta y exacta sobre el cáncer para estudiar los distintos tipos y genes y no perder tiempo escogiendo los datos. 
 
 ## Objetivos.
-El objetivo general del presente proyecto es solucionar el problema de obtención manual de los datos en la máquina Oncomine Reporter del servicio de Anatomía Patológica en el Hospital Universitario de Burgos (HUBU) mediante la automatización de la extracción de los datos, partiendo de los campos más relevantes para el manejo de datos de secuenciación masiva generados directamente por el software comercial Oncomine Reporter en un informe en formato Portable Document Format (PDF) poco adecuado para su tratamiento. 
+El objetivo general del presente proyecto es solucionar el problema de obtención manual de los datos del software Oncomine Reporter del servicio de Anatomía Patológica en el Hospital Universitario de Burgos (HUBU) mediante la automatización de la extracción de los datos.
 
 Para conseguir este objetivo general, se ha dividido en distintos objetivos más pequeños que al unirlos permiten la creación final del proyecto. 
 
@@ -26,17 +27,18 @@ Para conseguir este objetivo general, se ha dividido en distintos objetivos más
 
 ### Objetivos técnicos.
 1. Revisión bibliográfica sobre PDFscraping. 
-2. Creación de código sencillo  que seleccione las variables de interés de un PDF usando técnicas de PDFscraping. 
-3. Lectura de todos los PDF proporcionados para la obtención de la información.
-4. Separación de la información en tablas específicas.
-5. Obtención de varios archivos .CSV con los resultados. 
-6. Creación de material para ayudar a su implementación en otros dispositivos.
+2. Determinar y localizar las variables de interés.
+3. Creación de código para la lectura de todos los PDF proporcionados. 
+4. Código para la selección de las variables de interés de un PDF usando técnicas de PDFscraping. 
+5. Separación de la información en tablas específicas. 
+6. Creación de varias tablas exportables a archivos .xlsx con los resultados. 
+7. Creación de material complementario para ayudar a su implementación en otros dispositivos. 
 
 ### Objetivos de aprendizaje.
-1. Adquisición de nuevos conocimientos en el ámbito anatomopatológico. 
-2. Aumento de conocimiento en el ámbito de programación.
-3. Uso de distintas herramientas para un resultado final adecuado. 
-4. Comprensión de la información biológica para su aplicación en el desarrollo del código.
+1. Mejora del entendimiento de los análisis más comunes en anatomopatología.
+2. Aumento del conocimiento en el ámbito de programación, enfocado en la extracción de datos mediante la técnica PDFscraping.
+3. Comprensión de la información biológica para su aplicación en el desarrollo del código. 
+4. Selección de las herramientas informáticas más aptas para la realización del proyecto. 
 
 
 [C:\Users\luciv\OneDrive\Documentos\TFG_Lucia\GitHub\Automatizacion_PDF_scraping\Automatizacion_PDF_scraping\INPUT\Imagenes]: C:\Users\luciv\OneDrive\Documentos\TFG_Lucia\GitHub\Automatizacion_PDF_scraping\Automatizacion_PDF_scraping\INPUT\ImagenesLogo.jpg
