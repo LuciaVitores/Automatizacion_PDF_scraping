@@ -6,6 +6,7 @@ Trabajo de fin de grado de Ingeniería de la Salud de la Universidad de Burgos.
 Escuela Politécnica Superior.
 
 Tutor: Antonio Jesús Canepa Oneto. 
+
 Alumna: Lucía Vítores López.
 
 Julio de 2023.
